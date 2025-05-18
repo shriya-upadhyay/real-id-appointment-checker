@@ -1,0 +1,43 @@
+<html>
+  <body>
+    <div id="locationsDiv" class="col">
+
+      <!-- ✅ Case 1: Next available -->
+      <div class="locationCardContainer">
+        <div class="locationCard">
+          <div id="cardHeader">
+            <span class="AppointcardHeader">Test Location A<br>Real ID</span>
+          </div>
+          <div id="cardFooter">
+            <div id="dateText111111">Next available: May 17, 2025</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- ✅ Case 2: Appointments starting -->
+      <div class="locationCardContainer">
+        <div class="locationCard">
+          <div id="cardHeader">
+            <span class="AppointcardHeader">Test Location B<br>Real ID</span>
+          </div>
+          <div id="cardFooter">
+            <div id="dateText222222">Appointments available starting May 20</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- 🚫 Case 3: No availability -->
+      <div class="locationCardContainer">
+        <div class="locationCard">
+          <div id="cardHeader">
+            <span class="AppointcardHeader">Test Location C<br>Real ID</span>
+          </div>
+          <div id="cardFooter">
+            <div id="dateText333333">No Appointments Available</div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </body>
+</html>
